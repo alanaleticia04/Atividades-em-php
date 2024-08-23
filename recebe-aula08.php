@@ -16,7 +16,7 @@ background-color: lightgreen;
 <body>
     <?php
 
-    echo " Olá ",$_GET ["nome"]," ", $_GET["sobrenome"]," Seja bem-vindo ao sistema!! ";
+    echo " Olá ",$_POST["nome"]," ", $_POST["sobrenome"]," Seja bem-vindo ao sistema!! ";
 
 ?>
 </body>

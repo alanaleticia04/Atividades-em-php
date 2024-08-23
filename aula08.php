@@ -14,9 +14,8 @@ body
 
 </head>
 <body>
-    <a href= "recebe-aula07.php?nome=Alana"> Enviar seu nome aqui</a>
 
-    <form action= "recebe-aula07.php">
+    <form action= "recebe-aula08.php" method="post">
     <label for ="nome">Nome: </label>
     <input type= "text" name= "nome"><br> 
     <label for = "sobrenome">Sobrenome: </label><br>
